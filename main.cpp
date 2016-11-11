@@ -287,23 +287,18 @@ int main() {
  
 void displayMessage() {
     Word* first_word = Word::create();
-    first_word->addLetter(Letter::create('p'));
+    first_word->addLetter(Letter::create('h'));
+    first_word->addLetter(Letter::create('e'));
+    first_word->addLetter(Letter::create('l'));
+    first_word->addLetter(Letter::create('l'));
     first_word->addLetter(Letter::create('o'));
-    first_word->addLetter(Letter::create('m'));
-    first_word->addLetter(Letter::create('i'));
-    first_word->addLetter(Letter::create('d'));
-    first_word->addLetter(Letter::create('o'));
-    first_word->addLetter(Letter::create('r'));
-    first_word->addLetter(Letter::create('k'));
-    first_word->addLetter(Letter::create('a'));
  
     Word* second_word = Word::create();
+    second_word->addLetter(Letter::create('w'));
+    second_word->addLetter(Letter::create('o'));
+    second_word->addLetter(Letter::create('r'));
     second_word->addLetter(Letter::create('l'));
-    second_word->addLetter(Letter::create('u'));
-    second_word->addLetter(Letter::create('c'));
-    second_word->addLetter(Letter::create('s'));
-    second_word->addLetter(Letter::create('h'));
-    second_word->addLetter(Letter::create('e'));
+    second_word->addLetter(Letter::create('d'));
  
     Sentence* sentence = Sentence::create(eExclamation);
     sentence->addWord(first_word);
